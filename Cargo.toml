@@ -1,0 +1,16 @@
+# -*- eval: (cargo-minor-mode 1) -*-
+
+[package]
+name = "ellipse-bin"
+description = "Binary that truncates and ellipses strings in a human-friendly way"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[[bin]]
+path = "src/main.rs"
+name = "ellipse"
+
+[dependencies]
+clap = { version = "3.2", features = ["derive"] }
+ellipse = "0.2"
