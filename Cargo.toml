@@ -2,10 +2,10 @@
 
 [package]
 name = "ellipse-bin"
-description = "Binary that truncates and ellipses strings in a human-friendly way"
-version = "0.0.0"
-publish = false
+description = "Command that truncates and ellipses strings in a human-friendly way"
+version = "1.0.0"
 edition = "2021"
+license = "GPL-3.0"
 
 [[bin]]
 path = "src/main.rs"
