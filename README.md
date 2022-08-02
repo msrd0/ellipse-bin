@@ -2,12 +2,20 @@
 
 Command that truncates and ellipses strings in a human-friendly way.
 
+## How to use
+
 ```
 $ echo very long sentence |ellipse -n 12
 very long se…
 ```
 
-## Install from AUR (recommended)
+## How to install
+
+Installation instructions are provided for ArchLinux only. When using a different
+operation system, adoption to their package manager is left as an exercise to the
+reader.
+
+### Install from AUR (recommended)
 
 This example uses `yay`, but you can use your favourite AUR helper instead.
 
@@ -15,7 +23,7 @@ This example uses `yay`, but you can use your favourite AUR helper instead.
 yay -S ellipse
 ```
 
-## Install via cargo
+### Install via cargo
 
 First, install rust/cargo:
 
