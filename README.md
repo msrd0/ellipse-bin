@@ -34,7 +34,7 @@ sudo pacman -S rust
 Then, install with cargo:
 
 ```bash
-cargo install ellipse
+cargo install ellipse-bin
 ```
 
 This will only work if you have cargo's binary install directory added to your `$PATH`
